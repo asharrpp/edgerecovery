@@ -1,0 +1,124 @@
+/*
+ snxAdmin.css
+*/
+
+#toplevel_page_srcm div.wp-menu-image {
+    background: transparent url(../images/icon.png) no-repeat scroll center 2px;
+}
+
+#toplevel_page_srcm:hover div.wp-menu-image,
+#toplevel_page_srcm.wp-has-current-submenu div.wp-menu-image {
+    background: transparent url(../images/icon.png) no-repeat scroll center -26px;
+}
+
+.snx_query {
+    -moz-box-shadow: inset 0px 1px 0px 0px #7F9E9D;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #7F9E9D;
+    box-shadow: inset 0px 1px 0px 0px #7F9E9D;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #376866), color-stop(1, #8aa7a6));
+    background: -moz-linear-gradient(top, #376866 5%, #8aa7a6 100%);
+    background: -webkit-linear-gradient(top, #376866 5%, #8aa7a6 100%);
+    background: -o-linear-gradient(top, #376866 5%, #8aa7a6 100%);
+    background: -ms-linear-gradient(top, #376866 5%, #8aa7a6 100%);
+    background: linear-gradient(to bottom, #376866 5%, #8aa7a6 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#376866', endColorstr='#8aa7a6', GradientType=0);
+    background-color: #376866;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #3e5858;
+    display: inline-block;
+    color: #ffffff;
+    font-family: arial;
+    font-size: 13px;
+    font-weight: normal;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #275046;
+}
+
+.snx_query:hover {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #8aa7a6), color-stop(1, #376866));
+    background: -moz-linear-gradient(top, #8aa7a6 5%, #376866 100%);
+    background: -webkit-linear-gradient(top, #8aa7a6 5%, #376866 100%);
+    background: -o-linear-gradient(top, #8aa7a6 5%, #376866 100%);
+    background: -ms-linear-gradient(top, #8aa7a6 5%, #376866 100%);
+    background: linear-gradient(to bottom, #8aa7a6 5%, #376866 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#8aa7a6', endColorstr='#376866', GradientType=0);
+    background-color: #8aa7a6;
+}
+
+.snx_query:active {
+    position: relative;
+    top: 1px;
+}
+
+.query_site_cap_div {
+    /*color:red;*/
+    /*background-color:blue;*/
+    width: 100%;
+    word-break: break-all;
+}
+
+.query_site_cap_div_content {
+    margin: 10px 0;
+    background-color: white;
+}
+
+.query_site_cap_span {
+    padding-left: 5px;
+    padding-right: 20px;
+    /*font-family:fantasy;*/
+    /*font-weight:lighter;*/
+    font-style: oblique;
+    background-color: white;
+}
+
+.query_site_role_span {
+    font-style: normal;
+    font-weight: bold;
+    /*color:white;*/
+}
+
+.snx_need_wrap {
+    width: 50%;
+    word-break: break-all;
+}
+
+.snx_error_span {
+    color: red;
+    font-weight: bold;
+}
+
+.snx_hr {
+    margin: 20px 0;
+}
+
+.insert_snx_customer_role_div {
+    margin: 20px 0;
+}
+
+select option.mainsite {
+    background-color: rgb(139, 139, 139);
+    color: rgb(223, 228, 228);
+}
+
+/*
+.mainsite_select {
+    background-color:rgb(139, 139, 139);
+    color:rgb(223, 228, 228);
+}
+*/
+
+#snx-list-title-site .warning {
+    font-weight: bold;
+    color: red;
+    font-size: 12px;
+}
+
+span.snx_info {
+    background-color: rgb(182, 228, 217);
+    color: rgb(9, 28, 63);
+    font-size: 11px;
+    font-weight: bold;
+}
